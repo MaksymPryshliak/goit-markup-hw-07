@@ -1,3 +1,4 @@
-@import url(./base/base.scss);
-@import url(./utils/utils.scss);
-@import url(./components/components.scss);
+@import './utils/utils';
+@import './base/base';
+@import './utils/variables';
+@import './components/components';

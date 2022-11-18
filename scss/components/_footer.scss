@@ -71,12 +71,19 @@ address a {
 
 .footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 30px;
-    gap: 10px;
+    // justify-content: center;
+    // align-items: center;
+    align-items: baseline;
+    // padding-bottom: 30px;
     width: 1200px;
 }
+
+.footer-media {
+    flex-direction: column;
+    margin-right: 69px;
+    margin-left: 10px;
+    }
+
 
 .footer-social__link {
     display: flex;
@@ -109,10 +116,6 @@ address a {
 }
 
 
-.footer-social {
-    margin-left: 69px;
-    margin-top: 10px;
-}
 
 
 .footer-submit__text {
@@ -122,7 +125,7 @@ address a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--light-color);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 14px 0px 10px 0px;
 }
 

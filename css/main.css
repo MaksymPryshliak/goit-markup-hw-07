@@ -596,7 +596,6 @@ ul {
 }
 
 .our-projects {
-  min-height: 480px;
   padding-top: 0;
 }
 
@@ -820,7 +819,7 @@ address a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-right: 69px;
+  margin-right: 67px;
   margin-left: 10px;
 }
 
@@ -1056,7 +1055,6 @@ address a {
 }
 
 .our-team {
-  min-height: 648px;
   background-color: var(--bg-color);
   text-align: center;
 }
